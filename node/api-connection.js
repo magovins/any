@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyDBXCxkLJJEekhTcqQ-pV6A85V64pZ30vU'
+const API_KEY = ''
 const request = require('request')
 var randomPlaylists = ["PL53244BC75ACF40D0", "PLA1D6023F6FF2684B", "PLI_TwOrHUsI8MQNW0BvBAwwHYKgyiiiDB", "PLPZgiga_0D3HWboabRTgRn5032sbL395g", "PLMC9KNkIncKvYin_USF1qoJQnIyMAfRxl", "PLed0DOpaqI_aU4TyXZDuvpFAa1VZosCT7"]
 var projectsAPIs = ["http://site1825.tw.cs.unibo.it/TW/globpop"]

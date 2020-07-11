@@ -1,5 +1,5 @@
 const PORT = 8000;
-const API_KEY = 'AIzaSyDBXCxkLJJEekhTcqQ-pV6A85V64pZ30vU';
+const API_KEY = '';
 const ABS_POPULARITY = __dirname + '/DB/abs-popularity.json';
 const REL_POPULARITY = __dirname + '/DB/rel-popularity.json';
 
