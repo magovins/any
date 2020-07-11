@@ -1,5 +1,5 @@
 const PORT = 8000;
-const API_KEY = 'AIzaSyABZ8H0Xkls_32bZ_3XqL90KhV46NbTE1k';
+const API_KEY = 'AIzaSyDBXCxkLJJEekhTcqQ-pV6A85V64pZ30vU';
 const ABS_POPULARITY = __dirname + '/DB/abs-popularity.json';
 const REL_POPULARITY = __dirname + '/DB/rel-popularity.json';
 
@@ -19,7 +19,10 @@ app.use('/img', express.static(path.join(__dirname, '..', 'img/')))
 app.use('/js', express.static(path.join(__dirname, '..', 'js/')))
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
   next();
 });
 
