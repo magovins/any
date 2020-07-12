@@ -1,8 +1,8 @@
 const PORT = 8000;
-const API_KEY = '';
+const API_KEY = process.env.API_KEY;
 const ABS_POPULARITY = __dirname + '/DB/abs-popularity.json';
 const REL_POPULARITY = __dirname + '/DB/rel-popularity.json';
-
+require('dotenv').config();
 const express = require('express')
 const bodyParser = require('body-parser')
 const request = require('request')

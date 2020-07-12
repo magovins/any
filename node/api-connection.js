@@ -1,6 +1,6 @@
-const API_KEY = ''
-const request = require('request')
-var randomPlaylists = ["PL53244BC75ACF40D0", "PLA1D6023F6FF2684B", "PLI_TwOrHUsI8MQNW0BvBAwwHYKgyiiiDB", "PLPZgiga_0D3HWboabRTgRn5032sbL395g", "PLMC9KNkIncKvYin_USF1qoJQnIyMAfRxl", "PLed0DOpaqI_aU4TyXZDuvpFAa1VZosCT7"]
+const API_KEY = process.env.API_KEY;
+const request = require('request');
+var randomPlaylists = ["PL53244BC75ACF40D0", "PLA1D6023F6FF2684B", "PLI_TwOrHUsI8MQNW0BvBAwwHYKgyiiiDB", "PLPZgiga_0D3HWboabRTgRn5032sbL395g", "PLMC9KNkIncKvYin_USF1qoJQnIyMAfRxl", "PLed0DOpaqI_aU4TyXZDuvpFAa1VZosCT7"];
 var projectsAPIs = ["http://site1825.tw.cs.unibo.it/TW/globpop"]
 var totLocalVideos = 0 // The number of element in abs-popularity.json
 var reqNum = 0; // Count the requests to the projects APIs
