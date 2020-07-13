@@ -1,4 +1,4 @@
-const PORT = 8000;
+const PORT = process.env.PORT;
 const API_KEY = process.env.API_KEY;
 const ABS_POPULARITY = __dirname + '/DB/abs-popularity.json';
 const REL_POPULARITY = __dirname + '/DB/rel-popularity.json';
