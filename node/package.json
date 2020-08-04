@@ -16,6 +16,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Matteo Berti",
+  "engines": {
+    "node": "10.16.3"
+  },
+  "author": "Vicentiu Bota",
   "license": "ISC"
 }
