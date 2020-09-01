@@ -1,5 +1,5 @@
 # Music Video Recommender System
-<h3>Click <a href="https://todo-larvel.herokuapp.com">here</a> for demo.</h3>
+<h3>Click <a href="https://any-web-app.herokuapp.com/">here</a> for demo.</h3>
 
 <i>There are some hosting problems which prevents using YouTube API's</i>
 
